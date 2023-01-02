@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
 body {
 	color: #4d4643;
 }
 
 body, *, h1, h2, h3, h4, h5, h6{
-	font-family:"Poppins", "Open Sans", sans-serif;
+	font-family:"Barlow", "Open Sans", sans-serif;
 }
 
 a {
@@ -119,16 +121,21 @@ p.desc {
 # Header Social Links
 --------------------------------------------------------------*/
 
+.header-social-links{
+	margin-left: 25px;
+}
+
 .header-social-links a {
 	color: #a0a0a0;
 	display: inline-block;
 	line-height: 0px;
 	transition: 0.3s;
-	padding-left: 20px;
+	padding-left: 15px;
 }
 
 .header-social-links a i {
 	line-height: 0;
+	font-size: 1.2em;
 }
 
 .header-social-links a:hover {
@@ -169,9 +176,9 @@ p.desc {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 0 10px 30px;
-	font-size: 13px;
-	font-weight: 600;
+    padding: 15px 15px;
+    font-size: .75em;
+    font-weight: 600;
 	color: #111;
 	white-space: nowrap;
 	text-transform: uppercase;
@@ -214,14 +221,15 @@ p.desc {
 
 .navbar .dropdown ul a {
 	padding: 10px 20px;
-	font-size: 14px;
-	font-weight: 500;
-	text-transform: none;
-	color: #111;
+    font-size: .85em;
+    font-weight: 400;
+    text-transform: none;
+    color: #111;
 }
 
 .navbar .dropdown ul a i {
 	font-size: 1.4em;
+	margin-left: 15px;
 }
 
 .navbar .dropdown ul a:hover,
@@ -592,6 +600,7 @@ section {
 .breadcrumbs h2 {
 	font-size: 1.4em;
 	color: #fff;
+	margin-bottom: 0;
 }
 
 .breadcrumbs ol {
@@ -2101,12 +2110,8 @@ section {
 	background: #1e1e1e;
 }
 
-#footer .footer-top .footer-contact {
-	margin-bottom: 30px;
-}
-
 #footer .footer-top .footer-contact h3 {
-	font-size: 22px;
+	font-size:2em;
 	margin: 0 0 10px 0;
 	padding: 2px 0 2px 0;
 	line-height: 1;
@@ -2117,10 +2122,10 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-	font-size: 14px;
-	line-height: 24px;
-	margin-bottom: 0;
-	color: rgba(255, 255, 255, 0.7);
+	font-size: 1.15em;
+    line-height: 22px;
+    margin-bottom: 10px;
+    color: #c2c2c2;
 }
 
 #footer .footer-top h4 {
