@@ -93,11 +93,11 @@ p.desc {
 
 
 	.header-social-links a {
-    padding-left: 10px !important;
+	padding-left: 10px !important;
 	}
 
 	.header-social-links a i {
-    font-size: .9em;
+	font-size: .9em;
 	}
 
 }
@@ -264,14 +264,14 @@ p.desc {
 */
 .mobile-nav-toggle {
 	color: #111;
-	font-size: 28px;
+	font-size: 1.7em;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
 	transition: 0.5s;
 }
 
-.mobile-nav-toggle.bi-x {
+.mobile-nav-toggle.fa-times {
 	color: #fff;
 }
 
@@ -299,8 +299,8 @@ p.desc {
 
 .navbar-mobile .mobile-nav-toggle {
 	position: absolute;
-	top: 15px;
-	right: 15px;
+	top:25px;
+	right:25px;
 }
 
 .navbar-mobile ul {
@@ -2142,10 +2142,9 @@ section {
 }
 
 #footer .footer-top .footer-links ul i {
-	padding-right: 2px;
+	padding-right: 5px;
 	color: #1ed33c;
-	font-size: 18px;
-	line-height: 1;
+	font-size:.7em;
 }
 
 #footer .footer-top .footer-links ul li {
